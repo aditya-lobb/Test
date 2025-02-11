@@ -25,4 +25,4 @@ jobs:
     - name: Run compile.sh
       run: |
         chmod +x ./compile.sh
-        ./compile.sh
+        echo -e "Aditya Budhwar" | ./compile.sh
