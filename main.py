@@ -14,6 +14,7 @@ while(name_length):
     name_length -= 1
 
 print(name)
+print("this is test")
 print(f"Your reversed name is {reversed_name}")
 if check:
     print("Your name have vowels in it")
