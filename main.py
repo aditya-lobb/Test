@@ -13,7 +13,7 @@ while(name_length):
         check = True
     name_length -= 1
 
-print(name)
+print("name --> ",name)
 print("this is test")
 print(f"Your reversed name is {reversed_name}")
 if check:
