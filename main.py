@@ -20,7 +20,7 @@ def main():
             name_length -= 1
 
         print("name -->", name)
-        print("this is test")
+        print("this is test main")
         print(f"Your reversed name is {reversed_name}")
         if check:
             print("Your name has vowels in it.")
