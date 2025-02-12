@@ -32,5 +32,6 @@ def test_400_bad_request():
 def test_500_server_error():
     """Test case for a server error"""
     with pytest.raises(Exception) as excinfo:
-        raise Exception("Server Error")
-    assert str(excinfo.value) == "Server Error"
+        raise Exception(500,"Server Error")
+
+    assert str(excinfo.value) ==  "(500, 'Server Error')"
